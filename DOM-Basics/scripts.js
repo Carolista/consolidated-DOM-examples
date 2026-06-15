@@ -3,14 +3,14 @@
 /** ONE ELEMENT TO BE MANIPULATED **/
 
 // Declare an object representing the box element
-let box = document.getElementById('box');
+const box = document.getElementById('box');
 
 /*** CHANGE THE BORDER THICKNESS ***/
 
 // Declare objects representing the three width buttons
-let four = document.getElementById('4');
-let eight = document.getElementById('8');
-let twelve = document.getElementById('12');
+const four = document.getElementById('4');
+const eight = document.getElementById('8');
+const twelve = document.getElementById('12');
 
 // Define a reusable function that manipulates the border-width property
 function changeBorderWidth(width) {
@@ -26,9 +26,9 @@ twelve.addEventListener('click', () => changeBorderWidth(12));
 /*** CHANGE THE BORDER COLOR ***/
 
 // Declare objects representing the three colored buttons
-let red = document.getElementById('red');
-let yellow = document.getElementById('yellow');
-let blue = document.getElementById('blue');
+const red = document.getElementById('red');
+const yellow = document.getElementById('yellow');
+const blue = document.getElementById('blue');
 
 // Define a reusable function to manipulate the border-color property
 function changeBorderColor(name, hexCode) {
@@ -45,9 +45,9 @@ blue.addEventListener('click', () => changeBorderColor('blue', '#0d64b6'));
 /*** CHANGE THE BORDER STYLE ***/
 
 // Declare objects representing the three style buttons
-let dotted = document.getElementById('dotted');
-let double = document.getElementById('double');
-let dashed = document.getElementById('dashed');
+const dotted = document.getElementById('dotted');
+const double = document.getElementById('double');
+const dashed = document.getElementById('dashed');
 
 // Define a reusable function that manipulates the border-style property
 function changeBorderStyle(style) {
