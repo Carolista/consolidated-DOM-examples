@@ -9,7 +9,6 @@ window.addEventListener('load', function () {
 
   document.addEventListener('click', function (event) {
 
-    // TODO: if the random quote button is clicked, put the quote in the result section
     // RANDOM QUOTE courtesy of https://github.com/lukePeavey/quotable
     // Use the API documentation to look up the correct endpoint for a random quote
     if (event.target.id === 'quote') {
@@ -24,7 +23,6 @@ window.addEventListener('load', function () {
       });
     }
 
-    // TODO: If the random advice button is clicked, put the advice in the result section
     // RANDOM ADVICE courtesy of https://api.adviceslip.com/
     // Use the API documentation to look up the correct endpoint for a random slip
     if (event.target.id === "advice") {
@@ -39,7 +37,6 @@ window.addEventListener('load', function () {
       });
     }
 
-    // TODO: If dad joke button is clicked, put dad joke in result section
     // Challenge! Use async/await syntax for this one.
     // RANDOM DAD JOKE courtesy of https://icanhazdadjoke.com/api
     // Use the API documentation to look up the correct endpoint for a random joke
